@@ -1,0 +1,12 @@
+apiVersion: v1
+name: cf4k8s-extras
+version: 1.0.0
+appVersion: 0.1.0
+home: https://github.com/paulczar/cf4k8s-extras
+description: Extras for cf4k8s
+keywords: []
+sources: []
+maintainers:
+  - name: paulczar
+    email: paul@paulcz.enet
+engine: ytt
