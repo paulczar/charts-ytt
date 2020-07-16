@@ -1,0 +1,14 @@
+This Helm Chart Package contains YTT managed resources.
+
+Helm does not [yet] support native rendering of ytt resources,
+however you can use the post-render hook like so:
+
+```
+helm template . --post-renderer ./ytt/post-renderer.sh
+```
+
+or you can run:
+
+```
+ytt -f ytt [-f /path/to/values.yaml]
+```

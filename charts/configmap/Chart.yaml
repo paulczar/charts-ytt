@@ -1,0 +1,12 @@
+apiVersion: v1
+name: configmap
+version: 1.0.0
+appVersion: 0.1.0
+home: https://github.com/paulczar/ytt-charts
+description: ytt config map example
+keywords: []
+sources: []
+maintainers:
+  - name: paulczar
+    email: paul@paulcz.enet
+engine: ytt
