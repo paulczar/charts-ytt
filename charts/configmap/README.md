@@ -6,19 +6,19 @@ Initially it was to prove out that I could use `helm package` on a directory con
 
 ```
 helm package . -d temp/
-Successfully packaged chart and saved it to: temp/cf4k8s-extras-1.0.0.tgz
+Successfully packaged chart and saved it to: temp/configmap-1.0.0.tgz
 ```
 
 You can use helm with the post-render hook to template
 
 ```
-helm template . --post-renderer ./ytt/post-renderer.sh
+helm template . --post-renderer ./bin/post-renderer
 ```
 
 or install it
 
 ```
-helm install example . --post-renderer ./ytt/post-renderer.sh
+helm install example . --post-renderer ./bin/post-renderer
 ```
 
 or you could just use helm to package/share and run ytt directly:

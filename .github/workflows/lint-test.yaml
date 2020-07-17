@@ -13,6 +13,7 @@ jobs:
         id: lint
         uses: helm/chart-testing-action@v1.0.0-rc.2
         with:
+          image: paulczar/chart-testing:v3.0.0-rc.1
           command: lint
 
       - name: Create kind cluster
@@ -24,4 +25,5 @@ jobs:
       - name: Run chart-testing (install)
         uses: helm/chart-testing-action@v1.0.0-rc.2
         with:
+          image: paulczar/chart-testing:v3.0.0-rc.1
           command: install
