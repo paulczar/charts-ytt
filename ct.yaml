@@ -8,4 +8,4 @@ chart-repos: []
 target-branch: main
 lint-conf: ./lintconf.yaml
 setup-script: ./ci/testing.sh
-post-renderer: ./bin/post-renderer.sh
+post-renderer: ./bin/post-renderer
