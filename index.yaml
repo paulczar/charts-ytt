@@ -3,6 +3,20 @@ entries:
   configmap:
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2020-07-28T16:16:50.932693349Z"
+    description: ytt config map example
+    digest: ca68fcce52c16457be5d72e5c263f26e0f65a2c7e7f16405a357045e368514c9
+    engine: gotpl
+    home: https://github.com/paulczar/ytt-charts
+    maintainers:
+    - email: paul@paulcz.enet
+      name: paulczar
+    name: configmap
+    urls:
+    - https://github.com/paulczar/charts-ytt/releases/download/configmap-1.2.0/configmap-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2020-07-28T15:53:47.677985316Z"
     description: ytt config map example
     digest: f7d26ca6f1eedad54a2942ee2a5bbac1f23d2811e16dad0bd5f9e1ab799e0cb8
