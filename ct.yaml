@@ -1,0 +1,11 @@
+# See https://github.com/helm/chart-testing#configuration
+
+remote: origin
+chart-dirs:
+  - charts
+chart-repos: []
+# helm-extra-args: "--post-renderer ./charts/configmap/ytt/post-renderer.sh"
+target-branch: main
+lint-conf: ./lintconf.yaml
+setup-script: ./ci/testing.sh
+post-renderer: ./bin/post-renderer
